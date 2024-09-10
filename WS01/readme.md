@@ -350,7 +350,7 @@ Make sure `file.cpp` mutes the CRT_SECURE warnings by applying `#define _CRT_SEC
 
 Also, include the header file needed for `fscanf`.
 
-Add the global `File* fptr;` above all of the functions inside the namespace. 
+Add the global `FILE* fptr;` above all of the functions inside the namespace. 
 
 ### movie module
 Definitions:
@@ -398,7 +398,7 @@ Now Compile and run the project (as you did before in Step 1) and make sure ever
 
 On Linux, in your matrix account, upload the module files (`file.cpp`, `File.h`, `movie.cpp`, `movie.h`, `utils.cpp`, `utils.h` and `main.cpp` ) and the data file `movies.dat` to your matrix account and compile the source code using the following command.
 ```Bash
-g++ utils.cpp file.cpp vovie.cpp main.cpp -Wall -std=c++11 -o ws<ENTER>
+g++ utils.cpp file.cpp movie.cpp main.cpp -Wall -std=c++11 -o ws<ENTER>
 ```
 Run the program like before making sure that everything still works properly. 
 
