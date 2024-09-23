@@ -1,7 +1,9 @@
-# Workshop #3: Member Functions and Privacy
-
+# Workshop #3: Member Functions and Privacy (V1.1)
 In this workshop, you will implement member functions, privacy and a safe empty state for a class.
 
+## Updates
+### [Version (1.1)](#set-overloaded-with-five-arguments)
+Added default arguments to the five-argument set function for clarity
 
 ## Learning Outcomes
 
@@ -268,9 +270,9 @@ Returns if the CC object is in a safe empty state or not; by returning true if t
 ```C++
 void set(const char* cc_name, 
          unsigned long long cc_no, 
-         short m_cvv, 
-         short m_expMon, 
-         short m_expYear);
+         short cvv, 
+         short expMon = 12, 
+         short expYear = 2024);
 ```
 First, it will `cleanUp()` the object to a safe empty state. Then if all the arguments are valid using `validate()`, it will dynamically keep a copy of the name in the name attribute (using `alocpy function in cstr.h`) and then sets the rest of the attributes to their corresponding values. 
 
