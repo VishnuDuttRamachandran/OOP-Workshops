@@ -2,7 +2,8 @@
 In this workshop, you will implement member functions, privacy and a safe empty state for a class.
 
 ## Updates
-### [Version (1.2)](#typo-in-default-param)
+### [Version (1.2)](#set-overloaded-with-five-arguments)
+Typo in default arguments in five arg set for expYear
 ### [Version (1.1)](#set-overloaded-with-five-arguments)
 Added default arguments to the five-argument set function for clarity
 
