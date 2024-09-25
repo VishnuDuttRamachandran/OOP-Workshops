@@ -23,7 +23,7 @@ void listCCs();
 int main() {
    CC cc;
    cc.set();
-   cc.set("Hubert Blaine", 4098765423457896, 100);
+   cc.set("Hubert Blaine", 4098765423457896, 100,12,24);
    cout << "Valid credit card record: " << endl;
    cc.display();
    cout << "+-----+--------------------------------+---------------------+-----+-------+" << endl;
